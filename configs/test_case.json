@@ -1,0 +1,19 @@
+{
+  "enzyme_csv": "data/test_case/test_enzymes.csv",
+  "molecule_csv": "data/test_case/test_molecules.csv",
+  "reaction_csv": "data/test_case/test_reactions.csv",
+  "unimol_pkl": "data/test_case/test_molecule_embeddings.pkl",
+  "enzyme_pt": "data/test_case/test_enzyme_embeddings.pt",
+  "hypergraph_dir": "data/test_case/test_protein_graphs",
+  "checkpoint_pattern": "checkpoints/test_seed_{seed}.pt",
+  "output_dir": "outputs",
+  "enzyme_id_col": "Enzyme_ID",
+  "molecule_id_col": "Molecule_ID",
+  "molecule_smiles_col": "Molecule",
+  "label_col": "kcat",
+  "cls_threshold": 0.5,
+  "batch_size": 32,
+  "hidden_dim": 1024,
+  "dropout": 0.2,
+  "unimol_mode": "concat"
+}
