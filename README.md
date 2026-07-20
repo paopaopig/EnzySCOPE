@@ -1,4 +1,16 @@
-﻿# EnzySCOPE
+﻿<div align="center">
+
+# EnzySCOPE
+
+**A structure-aware enzyme reaction prediction model for enzyme-substrate-product screening**
+
+Reproducible test-case inference with checkpoints from **seed 1231 to seed 1240**.
+
+</div>
+
+---
+
+## Overview
 
 **EnzySCOPE** is a structure-aware enzyme reaction prediction model for enzyme-substrate-product screening. This repository provides a reproducible test case with checkpoints from seed 1231 to seed 1240.
 
@@ -17,7 +29,7 @@ outputs/                      Prediction outputs
 
 ## Installation
 
-Check the existing PyTorch/CUDA environment first:
+Check the existing PyTorch/CUDA environment first. EnzySCOPE requires **PyTorch >= 2.0.0**.
 
 ```bash
 python -c "import torch; print(torch.__version__); print(torch.version.cuda); print(torch.cuda.is_available())"
