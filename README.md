@@ -2,9 +2,9 @@
 
 # EnzySCOPE
 
-**A structure-aware enzyme reaction prediction model for enzyme-substrate-product screening**
+**A substrate-first-enzymology deep-learning framework for transforming new-to-nature chemicals**
 
-Reproducible test-case inference with checkpoints from **seed 1231 to seed 1240**.
+<img src="assets/enzyscope_framework.png" alt="EnzySCOPE framework" width="900">
 
 </div>
 
@@ -12,7 +12,7 @@ Reproducible test-case inference with checkpoints from **seed 1231 to seed 1240*
 
 ## Overview
 
-**EnzySCOPE** is a structure-aware enzyme reaction prediction model for enzyme-substrate-product screening. This repository provides a reproducible test case with checkpoints from seed 1231 to seed 1240.
+**EnzySCOPE** is a substrate-first-enzymology deep-learning framework for transforming new-to-nature chemicals.
 
 ## Project Structure
 
@@ -29,10 +29,16 @@ outputs/                      Prediction outputs
 
 ## Installation
 
-Check the existing PyTorch/CUDA environment first. EnzySCOPE requires **PyTorch >= 2.0.0**.
+Check the existing Python, PyTorch, and CUDA environment first:
+
+```text
+Python   3.10
+PyTorch  2.1.2
+CUDA     11.8
+```
 
 ```bash
-python -c "import torch; print(torch.__version__); print(torch.version.cuda); print(torch.cuda.is_available())"
+python -c "import sys, torch; print(sys.version); print(torch.__version__); print(torch.version.cuda); print(torch.cuda.is_available())"
 ```
 
 Install prediction dependencies:
