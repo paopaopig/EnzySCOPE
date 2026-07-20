@@ -4,7 +4,11 @@
 
 **A substrate-first-enzymology deep-learning framework for transforming new-to-nature chemicals**
 
-<img src="assets/enzyscope_framework.png" alt="EnzySCOPE framework" width="900">
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1.2-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-11.8-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+<img src="assets/enzyscope_framework.png" alt="EnzySCOPE framework" width="960">
 
 </div>
 
@@ -47,9 +51,9 @@ Install prediction dependencies:
 pip install -r requirements.txt
 ```
 
-## Test Prediction
+## Quick Start
 
-Run from the project root:
+Run test prediction from the project root:
 
 ```bash
 python src/predict.py
